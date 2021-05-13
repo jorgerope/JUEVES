@@ -1,2 +1,144 @@
 /* CSS GRID */
 /* **************************************************************** */
+
+
+
+#header{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.banner{
+    display: flex;
+
+     justify-content: center;
+}
+
+
+
+.parrafos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:auto;
+ 
+
+}
+.telefono{
+
+grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+    
+}
+
+.somos{
+
+    grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+
+}
+
+.item1{
+ grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+
+}
+.item2{
+    
+grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  width: 242px;
+text-align: center;  
+}
+
+.item3{
+grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  
+  }
+
+.item4{
+grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  width: 242px;  
+text-align: center;}
+
+
+
+.imagenesGaleria{
+
+   display: grid; 
+grid-template-columns:auto;
+grid-template-rows: auto;
+justify-content: center;
+
+}
+
+
+.item11{
+grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
+
+}
+
+
+.item12{
+
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  
+
+}
+
+
+.item13{
+
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  
+}
+
+
+.item14{
+grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  
+
+}
+
+
+.quieres{
+
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  text-align: center;
+}

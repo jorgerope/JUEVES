@@ -1,6 +1,35 @@
 /* CSS TYPOGRAFÍA */
 /* **************************************************************** */
+[typografia]
+
+/* ------------------------------------------------- */
+
+
+
+html{
+
+    font-size:  16px;
+}
 
 @font-face {
-    
+
+    font-family: Roboto;
+
+
+font-size: 36px; font-family: "Roboto";
+  src: 
+    url(../font/roboto-regular.woff2) format("woff2"),
+    url(../font/roboto-regular.woff) format("woff");
+
 }
+
+/* VARIABLES de tipografía */
+:root{
+  --fontBase: "Roboto";
+  --fontSizeBase: 1rem;
+  --fontSizeTitulo: 1.125rem;
+  --fontSizeparrafo: .875rem;
+}
+/* ********************** */
+
+falta poner aquí 

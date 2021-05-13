@@ -1,2 +1,42 @@
 /* CSS COLOR */
 /* **************************************************************** */
+
+# [color codes]
+
+# colorNegro (text): #3A3A3A
+# colorAmarillo: #FFCB13
+# colorBlanco: #F5F5F5
+
+
+
+
+
+
+/* --------------------- */
+
+/* variables colores */
+
+:root {
+  --colorAmarillo: #FFCB13;
+
+  /* basicos */
+ 
+  --colorNegro:  #3A3A3A;
+  --colorBlanco: #F5F5F5;
+
+
+}
+
+
+/* -------------------------- */
+
+body{
+
+background-color: var(--colorBlanco);
+
+}
+
+
+.telefono{
+
+}
