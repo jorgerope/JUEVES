@@ -38,5 +38,17 @@ background-color: var(--colorBlanco);
 
 
 .telefono{
+background-color: #FFCB13;
+ 
+}
 
+
+.container__footer{
+
+    background-color: black;
+    color:white;
+}
+
+.redes1{
+    color: white;
 }

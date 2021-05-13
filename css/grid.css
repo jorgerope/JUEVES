@@ -22,24 +22,27 @@
 
 .parrafos{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns:auto;
   grid-template-rows:auto;
  
 
 }
 .telefono{
-
-grid-column-start: 2;
+width: 140px;
+height: 41px;
+grid-column-start: ;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  text-align: center;
+
+  justify-content: center;
+  padding: 10px;
     
 }
 
 .somos{
 
-    grid-column-start: 2;
+    grid-column-start:1;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
@@ -141,4 +144,54 @@ grid-column-start: 1;
   grid-row-start: 5;
   grid-row-end: 6;
   text-align: center;
+}
+
+
+.container__footer{
+height: 450px;
+  display: grid; 
+grid-template-columns:120px 120px 120px;
+grid-template-rows: auto;
+justify-content: center;
+   
+
+}
+
+.contacto{
+ grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
+}
+
+.contacto1{
+grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  
+}
+.redes{
+grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+ }
+
+ .redes1{
+
+    grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start:3;
+  grid-row-end: 4;
+    
+ }
+.copy{
+
+grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end:5;
+  
 }
