@@ -37,7 +37,7 @@ background-color: var(--colorBlanco);
 }
 
 
-.telefono{
+button{
 background-color: #FFCB13;
  
 }
@@ -51,4 +51,5 @@ background-color: #FFCB13;
 
 .redes1{
     color: white;
+    background-color: black;
 }
